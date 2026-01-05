@@ -11,4 +11,9 @@ Phase 1: Teto Clock / Pomodoro
 - build skeletion 
 - basic timer functionality
 - basic UI
+- integrate Electron
+
+
+
+
 
