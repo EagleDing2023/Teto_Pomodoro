@@ -1,0 +1,24 @@
+{
+  "name": "teto_pomodoro",
+  "version": "1.0.0",
+  "description": "A small, cozy desktop app inspired by Kasane Teto.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EagleDing2023/Teto_Pomodoro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/EagleDing2023/Teto_Pomodoro/issues"
+  },
+  "homepage": "https://github.com/EagleDing2023/Teto_Pomodoro#readme",
+  "devDependencies": {
+    "electron": "^39.2.7"
+  }
+}
