@@ -3,3 +3,15 @@ body {
   text-align: center;
   margin-top: 50px;
 }
+
+#timer {
+  font-size: 60px;
+  margin: 30px 0;
+}
+
+#controls button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
