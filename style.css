@@ -1,7 +1,9 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #timer {
@@ -14,4 +16,47 @@ body {
   padding: 10px 20px;
   margin: 5px;
   cursor: pointer;
+}
+
+#session-boxes {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically (inside row) */
+  margin-bottom: 100px; /* space from bottom */
+  margin-left: auto; /* center the whole container */
+  margin-right: auto; /* center the whole container */
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.session-box {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #555;
+}
+
+.session-box.filled {
+  background: #555;
+}
+.session-box.pomodoro {
+  border-color: #e74c3c;
+}
+
+
+
+#settings-btn {
+  margin-top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#settings-panel {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background: white;
+  padding: 20px;
+  border: 2px solid #555;
 }

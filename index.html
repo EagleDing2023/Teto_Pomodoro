@@ -8,21 +8,49 @@
 </head>
 
 <body>
-  <h1>Teto Pomodoro</h1>
+  <div id="app">  
+    <h1>Teto Pomodoro</h1>
 
-  <!-- Timer Display -->
-  <div id="timer">
-    <span id="minutes">25</span>:<span id="seconds">00</span>
+    <!-- Timer Display -->
+    <div id="timer">
+      <span id="minutes">25</span>:<span id="seconds">00</span>
+    </div>
+
+    <!-- Session Boxes -->
+  <div id="session-boxes"></div>
+
+    <!-- Control Buttons -->
+  <div id="controls">
+    <button id="toggle">Start</button>
+    <button id="reset">Reset</button>
   </div>
+</div>
 
-   <!-- Control Buttons -->
-<div id="controls">
-  <button id="toggle">Start</button>
-  <button id="reset">Reset</button>
+  <!-- Settings Button and Panel -->
+<button id="settings-btn">⚙</button>
+
+<div id="settings-panel" hidden>
+  <label>
+    Study minutes:
+  <input type="number" id="study-input" min="0">
+  </label>
+
+  <label>
+    Break minutes:
+    <input type="number" id="break-input" min="0">
+  </label>
+
+  <label>
+    Sessions:
+    <input type="number" id="session-input" min="1">
+  </label>
+
+  <button id="save-settings">Save</button>
 </div>
 
 
-    <!-- JavaScript -->
-  <script src="app.js"></script>
+
+<!-- JavaScript -->
+<script src="app.js"></script>
 </body>
 </html>
